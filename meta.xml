@@ -1,0 +1,38 @@
+<meta>
+    <info author="Churchill" type="script" name="BetterWeather" version="1.0.2" description="A more realistic weather system" />
+	<script src="BetterWeather.lua" />  
+	<script src="BetterWeather_c.lua" type="client" />  
+	
+	<!-- this block can be commented out if you plan to call this resource from another resource-->
+	<script src="OptionalClientScript.lua" type="client" />  
+	<script src="OptionalServerScript.lua" type="server" />  
+	<config src="optional.xml" type="client" />
+	<file src="img/Day/0.png" raw="true" />
+	<file src="img/Day/1.png" raw="true" />
+	<file src="img/Day/2.png" raw="true" />
+	<file src="img/Day/3.png" raw="true" />
+	<file src="img/Day/4.png" raw="true" />
+	<file src="img/Day/5.png" raw="true" />
+	<file src="img/Day/6.png" raw="true" />
+	<file src="img/Day/7.png" raw="true" />
+	<file src="img/Day/8.png" raw="true" />
+	<file src="img/Day/9.png" raw="true" />
+	<file src="img/Day/10.png" raw="true" />
+	<file src="img/Night/0.png" raw="true" />
+	<file src="img/Night/1.png" raw="true" />
+	<file src="img/Night/2.png" raw="true" />
+	<file src="img/Night/3.png" raw="true" />
+	<file src="img/Night/4.png" raw="true" />
+	<file src="img/Night/5.png" raw="true" />
+	<file src="img/Night/6.png" raw="true" />
+	<file src="img/Night/7.png" raw="true" />
+	<!--end of optional code -->
+
+	<export function="GetTodaysWeatherDescriptions" http="true" />
+	<export function="GetTodaysWeatherIDs" http="true" />
+	<export function="GetAllWeatherDescriptions" http="true" />
+	<export function="GetAllWeatherIDs" http="true" />
+	<export function="GetDayWeatherDescription" http="true" />
+	<export function="GetNightWeatherDescription" http="true" />
+	
+</meta>
